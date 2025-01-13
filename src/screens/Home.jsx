@@ -1,13 +1,23 @@
-import Logo from "../components/Home/Logo"
+import OpenLink from "../components/Core/OpenLink"
 import Body from "../components/Home/Body"
 import Footer from "../components/Home/Footer"
-import GitHub from "../components/Home/GitHub"
+
+import viteLogo from "../assets/vite.svg"
+import reactLogo from "../assets/react.svg"
+import gitHubLogo from "../assets/github.svg"
 
 const Home = () => {
   return (
     <div>
-      <Logo />
-      <GitHub />
+      <OpenLink
+        redirectURL="https://vite.dev"
+        logoImage={viteLogo} />
+      <OpenLink
+        redirectURL="https://react.dev"
+        logoImage={reactLogo} />
+      <OpenLink
+        redirectURL="https://github.com/jncruz-dev/diplomado-react"
+        logoImage={gitHubLogo} />
       <Body />
       <Footer />
     </div>
