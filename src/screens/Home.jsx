@@ -9,15 +9,17 @@ import gitHubLogo from "../assets/github.svg"
 const Home = () => {
   return (
     <div>
-      <OpenLink
-        redirectURL="https://vite.dev"
-        logoImage={viteLogo} />
-      <OpenLink
-        redirectURL="https://react.dev"
-        logoImage={reactLogo} />
-      <OpenLink
-        redirectURL="https://github.com/jncruz-dev/diplomado-react"
-        logoImage={gitHubLogo} />
+      <div>
+        <OpenLink
+          redirectURL="https://vite.dev"
+          logoImage={viteLogo} />
+        <OpenLink
+          redirectURL="https://react.dev"
+          logoImage={reactLogo} />
+        <OpenLink
+          redirectURL="https://github.com/jncruz-dev/diplomado-react"
+          logoImage={gitHubLogo} />
+      </div>
       <Body />
       <Footer />
     </div>
