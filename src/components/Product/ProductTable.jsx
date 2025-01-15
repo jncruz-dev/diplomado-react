@@ -32,7 +32,7 @@ const ProductTable = ({ products, filterText, inStockOnly }) => {
   });
 
   return (
-    <table>
+    <table style={{ width: "100%" }}>
       <thead>
         <tr>
           <th>Name</th>

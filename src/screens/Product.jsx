@@ -10,7 +10,11 @@ const PRODUCTS = [
 ];
 
 const Product = () => {
-  return <FilterableProductTable products={PRODUCTS} />
+  return (
+    <div style={{ textAlign: "left", border: "1px solid #cccc", padding: "1rem", marginTop: "1rem" }}>
+      <FilterableProductTable products={PRODUCTS} />
+    </div>
+  )
 }
 
 export default Product
