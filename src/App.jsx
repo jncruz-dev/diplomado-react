@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './components/Counter/Counter.jsx'
 import Home from './screens/Home'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Home />
+      <Counter />
     </>
   )
 }
